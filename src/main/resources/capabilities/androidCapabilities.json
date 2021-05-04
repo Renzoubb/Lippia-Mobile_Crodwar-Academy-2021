@@ -2,7 +2,11 @@
   "deviceName": "{{deviceName}}",
   "app": "{{app}}",
   "platformName": "Android",
-  "avd": "{{avd}}",
+  "Avd": "{{avd}}",
+  "appPackage":"com.phptravelsnative",
   "resetKeyboard": "true",
   "unicodeKeyboard": "true"
 }
+
+
+

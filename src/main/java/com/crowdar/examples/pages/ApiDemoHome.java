@@ -1,6 +1,7 @@
 package com.crowdar.examples.pages;
 
 import com.crowdar.core.pageObjects.PageBaseMobile;
+import io.appium.java_client.MobileBy;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.RemoteWebDriver;
@@ -30,5 +31,8 @@ public class ApiDemoHome extends PageBaseMobile {
         WebElement element = getMenuElement(menu);
         clickElement(element);
     }
+    /*public void setInputData(){
+        completeField(MobileBy.AccessibilityId(TEXT_VIEW_XPATH), value:"Dato")
+    }*/
 
 }
