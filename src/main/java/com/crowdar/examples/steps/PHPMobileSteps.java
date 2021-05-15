@@ -8,17 +8,19 @@ import com.crowdar.examples.pages.PHPVisaPage;
 import io.cucumber.java.en.*;
 import org.testng.Assert;
 
-public class PHPMobileSteps extends PageSteps {
+public class PHPMobileSteps extends PageSteps {}
 
+/*
 
 
     @Given("el usuario se encuentra en la home de la app")
     public void elUsuarioSeEncuentraEnLaHomeDeLaApp() {
     }
 
+
     @When("el usuario tapea el icono VISA")
     public void elUsuarioTapeaElIconoVISA() {
-        Injector._page(PHPMobileHome.class).tapVisaButton();
+       // Injector._page(PHPMobileHome.class).tapVisaButton();
     }
 
     @And("el usuario completa los datos desde {string} hasta {string}")
@@ -55,4 +57,4 @@ public class PHPMobileSteps extends PageSteps {
     public void elUsuarioVerificaQueSeRealizoCorrectamenteLaReserva() {
         Assert.assertEquals(Injector._page(PHPVisaPage.class).ReadTittle(), "Reservation Submitted");
     }
-}
+}*/
